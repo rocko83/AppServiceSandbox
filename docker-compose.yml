@@ -1,0 +1,6 @@
+﻿services:
+  devsandbox02:
+    image: devsandbox02
+    build:
+      context: .
+      dockerfile: DevSandbox02/Dockerfile
